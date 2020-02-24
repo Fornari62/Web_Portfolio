@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  #flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 60%;
+    height: max-content;
+    background-color: rgb(200, 220, 255);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 5px dotted black;
+    margin: 10px 0;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+  
+  .boxx {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 5px dotted black;
+    margin: 10px 0;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+  }
+
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
