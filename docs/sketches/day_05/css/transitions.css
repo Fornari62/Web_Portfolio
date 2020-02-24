@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    padding: 3vw;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition-property: background-color, top;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(.62,.94,.76,-0.52);
+}
+
+.box:hover {
+    background-color: aquamarine;
+    top: 25%;
+}
+
+.trigger {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.trigger:hover {
+    
+}
