@@ -1,0 +1,23 @@
+.body {
+    background-color: rgb(109, 178, 221);
+}
+
+.flex-containter {
+    display: inline-flex;
+    flex-direction: row;
+}
+    
+.flex-item {
+    display: inline-flex;
+    flex-flow: row wrap;
+    background: maroon;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 3em;
+    text-align: center;
+  }
